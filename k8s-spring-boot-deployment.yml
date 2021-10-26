@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: public.ecr.aws/x6r1u4t3/maxis-image/maxis-docker-demo:latest
+          image: 129911513236.dkr.ecr.us-east-1.amazonaws.com/maxis-image:latest
           ports:
             - containerPort: 8080
           env:
